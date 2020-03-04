@@ -1,0 +1,628 @@
+.trapezoid1{
+    position: relative;
+    border-top: 50px solid #1791FF;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    width: 320px;
+    margin-left: 80px;
+}
+.trapezoid1::before{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  background-color: #1791FF;
+  left: -18px;
+  bottom: 15px;
+}
+.trapezoid1::after{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  background-color:#1791FF;
+  left: 268px;
+  bottom: 15px;
+}
+.trapezoid2{
+  position: relative;
+  margin-top:1px;
+  border-top: 50px solid #40A9FF ;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  width: 260px;
+  margin-left: 110px;
+
+}
+.trapezoid2::before{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  background-color: #1791FF;
+  left: -18px;
+  bottom: 15px;
+}
+.trapezoid2::after{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  background-color:#1791FF;
+  left: 208px;
+  bottom: 15px;
+}
+.trapezoid3{
+  position: relative;
+  margin-top:1px;
+  border-top: 50px solid #68C0FF;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  width: 200px;
+  margin-left: 140px;
+}
+.trapezoid3::before{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  background-color: #1791FF;
+  left: -18px;
+  bottom: 15px;
+}
+.trapezoid3::after{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  background-color:#1791FF;
+  left: 148px;
+  bottom: 15px;
+}
+.trapezoid4{
+  position: relative;
+  margin-top:1px;
+  border-top: 50px solid #BAE7FF;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  width: 140px;
+  margin-left: 170px;
+}
+.trapezoid4::before{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  background-color: #1791FF;
+  left: -18px;
+  bottom: 15px;
+}
+.trapezoid4::after{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  background-color:#1791FF;
+  left: 88px;
+  bottom: 15px;
+}
+
+.title{
+  font-family: PingFangSC-Semibold;
+font-size: 14px;
+color: #0089FF;
+letter-spacing: 0;
+margin-bottom: 10px;
+
+}
+.innerWord1{
+  left: 85px;
+  float: left;
+  position: absolute;
+  top: -30px;
+  font-family: PingFangSC-Medium;
+font-size: 12px;
+color: #333333;
+}
+.innerWord2{
+  left: 55px;
+  float: left;
+  position: absolute;
+  top: -30px;
+  font-family: PingFangSC-Medium;
+font-size: 12px;
+color: #333333;
+}
+.innerWord3{
+  left: 25px;
+  float: left;
+  position: absolute;
+  top: -30px;
+  font-family: PingFangSC-Medium;
+font-size: 12px;
+color: #333333;
+}
+.innerWord4{
+  left:0px;
+  float: left;
+  position: absolute;
+  top: -30px;
+  font-family: PingFangSC-Medium;
+font-size: 12px;
+color: #333333;
+}
+
+.innerWordLeft1{
+  left: -100px;
+  float: left;
+  position: absolute;
+  font-family: PingFangSC-Medium;
+  font-size: 12px;
+  color: #333333;
+  top: -26px;
+}
+
+.innerWord11{
+    left: 280px;
+    float: left;
+    position: absolute;
+    top: -28px;
+    font-family: PingFangSC-Medium;
+    font-size: 12px;
+    color: #333333;
+}
+.innerWordLeft2{
+  left: -100px;
+  float: left;
+  position: absolute;
+  font-family: PingFangSC-Medium;
+  font-size: 12px;
+  color: #333333;
+  top: -26px;
+}
+.innerWord12{
+  left: 220px;
+  float: left;
+  position: absolute;
+  top: -28px;
+  font-family: PingFangSC-Medium;
+  font-size: 12px;
+  color: #333333;
+}
+.innerWordLeft3{
+  left: -100px;
+  float: left;
+  position: absolute;
+  font-family: PingFangSC-Medium;
+  font-size: 12px;
+  color: #333333;
+  top: -26px;
+}
+.innerWord13{
+  left: 160px;
+    float: left;
+    position: absolute;
+    top: -28px;
+    font-family: PingFangSC-Medium;
+    font-size: 12px;
+    color: #333333;
+}
+.innerWordLeft4{
+  left: -100px;
+  float: left;
+  position: absolute;
+  font-family: PingFangSC-Medium;
+  font-size: 12px;
+  color: #333333;
+  top: -26px;
+}
+.innerWord14{
+  left: 100px;
+    float: left;
+    position: absolute;
+    top: -28px;
+    font-family: PingFangSC-Medium;
+    font-size: 12px;
+    color: #333333;
+}
+
+.innerWord21{
+  left: 210px;
+  float: left;
+  position: relative;
+  top: -30px;
+}
+.innerWord22{
+  left: 150px;
+  float: left;
+  position: relative;
+  top: -30px;
+}
+.innerWord23{
+  left: 90px;
+  float: left;
+  position: relative;
+  top: -30px;
+}
+.innerWord24{
+  left: 30px;
+  float: left;
+  position: relative;
+  top: -30px;
+}
+
+
+
+
+
+.buttonText{
+  border: auto;
+  border: 1px solid #DFDFDF;
+  border-radius: 5px;
+  padding-left: 5px;
+  width: 90px;
+  float: left;
+
+}
+.buttonTextChoice{
+  border: auto;
+  border: 1px solid #2f67e4;
+  border-radius: 5px;
+  padding-left: 5px;
+  width: 90px;
+  float: left;
+  color:#2f67e4;
+
+}
+
+.ciclesClue{
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #2f67e4;;
+  border-radius:5px;
+  left: 60px;
+  bottom: -5px;
+  float: left;
+}
+.ciclesClue::before{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  background-color: #1791FF;
+  left: -10px;
+  bottom: 4px;
+}
+.ciclesClue::after{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  background-color:#1791FF;
+  left: 8px;
+  bottom: 4px;
+}
+
+
+.ciclesOppt{
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #59A851;;
+  border-radius:5px;
+  left: 60px;
+  bottom: -5px;
+  float: left;
+}
+.ciclesOppt::before{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  background-color: #59A851;
+  left: -10px;
+  bottom: 4px;
+}
+.ciclesOppt::after{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  background-color:#59A851;
+  left: 8px;
+  bottom: 4px;
+}
+
+
+.ciclesCompact{
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #ECAE4B;;
+  border-radius:5px;
+  left: 60px;
+  bottom: -5px;
+  float: left;
+}
+.ciclesCompact::before{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  background-color: #ECAE4B;
+  left: -10px;
+  bottom: 4px;
+}
+.ciclesCompact::after{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  background-color:#ECAE4B;
+  left: 8px;
+  bottom: 4px;
+}
+
+.ciclesOrder{
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #D65FC4;;
+  border-radius:5px;
+  left: 60px;
+  bottom: -5px;
+  float: left;
+}
+.ciclesOrder::before{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  background-color: #D65FC4;
+  left: -10px;
+  bottom: 4px;
+}
+.ciclesOrder::after{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  background-color:#D65FC4;
+  left: 8px;
+  bottom: 4px;
+}
+
+
+
+.buttonType {
+  width :140px;
+  height :35px;
+  background-color: #F4F4F4;
+  color: #36383A;
+  border: 1px solid #DFDFDF;
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 5px;
+
+}
+.buttonTypeChoice {
+  width :140px;
+  height :35px;
+  background-color:#E5F3FF;
+  color: #0089FF;
+  border: 1px solid #2f67e4;
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 5px;
+
+}
+
+
+
+/* 田子布局 */
+
+.prat1{
+
+  width: 15%;
+  height: 35px;
+  float: left;
+  border: 1px solid #F0F0F0;
+  font-family: PingFangSC-Semibold;
+  font-size: 14px;
+  color: #4790E4;
+  letter-spacing: 0;
+  padding: 5px;
+  }
+
+  .prat2{
+
+    width: 84%;
+  height: 35px;
+  float: left;
+  border: 1px solid #F0F0F0;
+  font-family: PingFangSC-Semibold;
+  font-size: 14px;
+  color: #4790E4;
+  letter-spacing: 0;
+  padding: 5px;
+  }
+
+  .prat3{
+    width: 15%;
+  height: 135px;
+  float: left;
+  clear: left;
+  border: 1px solid #F0F0F0;
+  }
+
+  .prat4{
+    width: 84%;
+  height: 135px;
+  float: left;
+  border: 1px solid #F0F0F0;
+  }
+
+  .imgPrat{
+    margin-top: 40%;
+    margin-left: 25%;
+  }
+  .wordPret4{
+    font-family: PingFangSC-Semibold;
+    font-size: 14px;
+    color: #4B4D4F;
+    letter-spacing: 0;
+    margin:2%
+  }
+
+
+
+  .scrollDiv{
+    width: 80%;
+    overflow: auto;
+    border: 2px solid #F9F9F9;
+    margin-left: 10%;
+
+  }
+
+  .scrollDiv::-webkit-scrollbar {
+    display: none;
+}
+
+  .monthli{
+    list-style-type: none;
+    height: 70px;
+    text-align: center;
+    margin-left: -30px;
+    font-family: PingFangSC-Semibold;
+    font-size: 36px;
+    color: #070707;
+    letter-spacing: 0;
+  }
+  .monthliChoice{
+    list-style-type: none;
+    height: 70px;
+    text-align: center;
+    margin-left: -40px;
+    font-family: PingFangSC-Semibold;
+    font-size: 36px;
+    color: #070707;
+    letter-spacing: 0;
+    background: #F9F9F9;
+    color: #4790E4;
+  }
+
+  .yearli{
+    list-style-type: none;
+    height: 40px;
+    text-align: center;
+    margin-left: -30px;
+    font-family: PingFangSC-Semibold;
+    font-size: 20px;
+    color: #070707;
+    letter-spacing: 0;
+  }
+
+  .yearButton {
+      width: 125px;
+      margin: 0px 5px 0px 5px;
+    }
+
+    .calendar {
+      font-size: 45px;
+      color: rgb(30, 133, 255);
+      /* width: 40px; */
+      margin-left: 45px;
+      position: relative;
+    }
+
+    .calendarDate{
+      position: absolute;
+      top: 18px;
+      left: 6px;
+      font-size: 15px;
+      color: rgb(30, 133, 255);
+    }
+
+
+    .newli{
+      list-style-type: none;
+      height: 180px;
+    }
+
+
+
+    .detailButton{
+      position: relative;
+      float: right;
+      right: 2px;
+      cursor:'pointer';
+    }
+
+  .description{
+    float: left;
+    width: 50%;
+    padding: 2px;
+    font-size: 14px;
+    overflow: hidden; /*对超出容器的部分强制截取，高度不确定则换行*/
+    text-overflow: ellipsis;/*显示省略符号来代表被修剪的文本。*/
+    white-space: nowrap; /*禁止换行*/
+  }
+
+
+  .calendarNew{
+   
+
+    border: 1px solid #E6EBF0;
+    padding: 8px 2% 8px 2%;
+    margin-left: 10%;
+    width: 80%;
+  }
+
+
+ .funnelIcon{
+   padding: '0px 5px 0px 5px';
+   width: '120px';
+   font-family: 'PingFangSC-Medium',;
+   font-size: '12px';
+    color: '#333333';
+ }
+
+
+ .custMod{
+  display: inline;
+  color: #0D1918;
+  font-size: 15px;
+  font-weight: 600;
+
+
+ }
+
+ .custModDiv{
+  border: 1px solid #F0F0F0;
+  border-radius: 10px;
+  padding: 10px;
+  height: 300px;
+  background-color: white;
+ }
+ .custModHeader{
+  color: #919499;
+  font-size: 15px;
+  margin: 10px 0 10px 0px;
+ }
+ .custModTitle{
+  border-top: 1px solid #E8E8E8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-weight: 400;
+ }
+
+ 
+.custInfoDescription{
+  color:'#B4B4B4';
+  font-size:'12px';
+  margin-bottom: '5px';
+}

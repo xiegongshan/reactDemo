@@ -1,0 +1,35 @@
+.taskSidebar{
+    background-color: #FFFFFF;
+    position: relative;
+    left: -240px;
+    top: 0;
+    bottom: 0;
+    width: 240px;
+    z-index: 1;
+    border-right: 1px solid #E8E8E8;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    float: left;
+}
+.header{
+    background: #1890ff;
+    height: 45px;
+}
+.li{
+    height: 50px;
+    padding: 10px;
+}
+.li:hover
+{
+   background-color:#E6F7FF;
+}
+.li>span{
+    margin: 0px 0px 10px 20px;
+    font-size: 20px;
+}
+.rightMain{
+    float: left;
+}
