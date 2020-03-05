@@ -1,6 +1,12 @@
 # reactDemo
 Based on Ant Design, expand other functions
 
+# Code commit
+1. use 'git status' to view the changes
+2. use 'git add' to add what you want to add files
+3. use 'git commit' to local depository
+4. use 'git push origin master' to remote branch
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
