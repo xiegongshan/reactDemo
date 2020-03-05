@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-# reactDemo-
+# reactDemo
 Based on Ant Design, expand other functions
 
-=======
->>>>>>> 43863294dcec4ba8a45c43ec1c3688734a94dfb2
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
