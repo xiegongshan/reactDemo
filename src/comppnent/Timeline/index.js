@@ -198,7 +198,7 @@ class TimeLine extends Component {
     const { timeData,showIndex,year,month} =this.state;
     return (
     <div>
-    <Button style={{ width: '80%',marginLeft:'10%',height: '40px' ,fontSize: '20px',color: '#4790E4'}}>{year}年</Button>
+    <Button style={{ height: '40px' ,fontSize: '20px',color: '#4790E4'}}>{year}年</Button>
       <div   className="scrollDiv" style={{height:containerHeight-100}} id="timeScroll"
       ref={dom => {this.dom = dom}}
       onScrollCapture={() => this.handleOnScroll()}

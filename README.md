@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 # reactDemo-
-Demo'
-=======
+Based on Ant Design, expand other functions
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -70,4 +69,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
->>>>>>> 第一次提交

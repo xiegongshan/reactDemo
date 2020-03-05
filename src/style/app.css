@@ -15,8 +15,18 @@
     float: left;
 }
 .header{
-    background: #1890ff;
-    height: 45px;
+    position: relative;
+    background: #FFFFFF;
+    height: 50px;
+    box-shadow: 0px -2px 5px #333333;
+    z-index: 10;
+    bottom: 0px;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+.header>span{
+    font-size: 20px;
+    font-weight: 500;
 }
 .li{
     height: 50px;
@@ -32,4 +42,11 @@
 }
 .rightMain{
     float: left;
+}
+.rightMain>div{
+    position: relative;
+    min-height: 500px;
+    padding: 0 170px 32px 64px;
+    overflow: hidden;
+    background: #fff;
 }
