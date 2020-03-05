@@ -15,6 +15,7 @@
     float: left;
 }
 .header{
+<<<<<<< HEAD
     position: relative;
     background: #FFFFFF;
     height: 50px;
@@ -27,6 +28,10 @@
 .header>span{
     font-size: 20px;
     font-weight: 500;
+=======
+    background: #1890ff;
+    height: 45px;
+>>>>>>> 43863294dcec4ba8a45c43ec1c3688734a94dfb2
 }
 .li{
     height: 50px;
@@ -42,6 +47,7 @@
 }
 .rightMain{
     float: left;
+<<<<<<< HEAD
 }
 .rightMain>div{
     position: relative;
@@ -49,4 +55,6 @@
     padding: 0 170px 32px 64px;
     overflow: hidden;
     background: #fff;
+=======
+>>>>>>> 43863294dcec4ba8a45c43ec1c3688734a94dfb2
 }

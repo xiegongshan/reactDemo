@@ -480,8 +480,16 @@ color: #333333;
 
 
   .scrollDiv{
+<<<<<<< HEAD
     overflow: auto;
     border: 2px solid #F9F9F9;
+=======
+    width: 80%;
+    overflow: auto;
+    border: 2px solid #F9F9F9;
+    margin-left: 10%;
+
+>>>>>>> 43863294dcec4ba8a45c43ec1c3688734a94dfb2
   }
 
   .scrollDiv::-webkit-scrollbar {
@@ -513,6 +521,10 @@ color: #333333;
 
   .yearli{
     list-style-type: none;
+<<<<<<< HEAD
+=======
+    height: 40px;
+>>>>>>> 43863294dcec4ba8a45c43ec1c3688734a94dfb2
     text-align: center;
     margin-left: -30px;
     font-family: PingFangSC-Semibold;
